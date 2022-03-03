@@ -1,6 +1,9 @@
-// java Script
 
 console.log("Js Assignment");
-for(let i = 0; i < 10; i++){
-    console.log(2);
+const btn = document.getElementsByClassName("btn")
+
+btn.addEventListener('click', led);
+
+function led() {
+    alert("clicked")
 }
