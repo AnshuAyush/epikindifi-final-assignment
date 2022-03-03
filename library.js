@@ -1,1 +1,3 @@
-// Write your code here!
+// java Script
+
+console.log("Js Assignment");
